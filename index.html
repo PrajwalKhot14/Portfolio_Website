@@ -23,7 +23,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
@@ -38,7 +38,7 @@
                             </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#work" class="nav__link">
+                            <a href="#qualification" class="nav__link">
                                 <i class="uil uil-briefcase-alt nav__icon"></i> Experience
                             </a>
                         </li>
@@ -51,10 +51,12 @@
                     <i class="uil uil-times nav__close" id="nav-close"></i>
                 </div>
                 <div class="nav__btns">
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
                 </div>
+                
             </nav>
         </header>
 
@@ -98,7 +100,7 @@
                         </div>
 
                         <div class="home__data">
-                            <h1 class="home__title">Hi, I'm Prajwal Khot</h1>
+                            <h1 class="home__title">Hi, I'm Prajwal Pandit Khot</h1>
                             <h3 class="home__subtitle">MSCS at University of Illinois at Chicago</h3>
                             
                             <a href="#contact" class="button button--flex">
@@ -411,7 +413,7 @@
             </section>
 
             <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+            <section class="qualification section" id="qualification">
                 <h2 class="section__title">Qualification</h2>
                 <span class="section__subtitle">My journey</span>
                 <div class="qualification__container container">
@@ -551,17 +553,91 @@
             
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
 
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email ID: </h3>
+                                <span class="contact__subtitle">khotprajwal04@gmail.com </span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Mobile: </h3>
+                                <span class="contact__subtitle">312-284 7613</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Location: </h3>
+                                <span class="contact__subtitle">Chicago, IL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email ID</label>
+                                <input type="email" class="contact__input">
+                            </div>
+
+                            
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input "></textarea>
+                        </div>
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-         
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Prajwal Pandit Khot</h1>
+                    </div>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li> 
+                    </ul>
+                    
+                </div>
+            </div>
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
         <script src=""></script>
