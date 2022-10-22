@@ -412,7 +412,7 @@ img {
 
 
 /*==================== SKILLS ====================*/
-
+/* 
 .skills__container{
   row-gap: 0;
 }
@@ -486,7 +486,8 @@ img {
 
 .skills__open .skills__arrow{
   transform: rotate(-180deg);
-} 
+}  */
+
 /*==================== QUALIFICATION ====================*/
 
 .qualification__tabs{
